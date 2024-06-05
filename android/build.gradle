@@ -2,7 +2,7 @@ group 'seo.dongu.heic_to_jpg'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.7.21'
+    ext.kotlin_version = '1.8.0'
     repositories {
         google()
         jcenter()
@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace 'seo.dongu.heic_to_jpg'
-    compileSdkVersion 28
+    compileSdkVersion 30
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
